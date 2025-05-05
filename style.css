@@ -1,0 +1,99 @@
+/* Reset and base styles */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ font-family: 'Segoe UI', sans-serif;
+ background-color: #fffafc;
+ color: #333;
+ line-height: 1.6;
+}
+header {
+ background: linear-gradient(to right, #ff9eb8, #ffb7d2);
+ padding: 20px 0;
+ text-align: center;
+ box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+header h1 {
+ color: white;
+ font-size: 36px;
+ margin-bottom: 5px;
+ letter-spacing: 1px;
+}
+nav {
+ margin-top: 10px;
+}
+nav a {
+ text-decoration: none;
+ color: white;
+ margin: 0 15px;
+ font-weight: bold;
+ transition: color 0.3s;
+}
+nav a:hover {
+ color: #4b1e3d;
+}
+.container {
+ max-width: 1000px;
+ margin: 40px auto;
+ padding: 0 20px;
+}
+h2 {
+ color: #d94f8d;
+ margin-bottom: 20px;
+ text-align: center;
+}
+footer {
+ background-color: #ffe0ea;
+ color: #6c6c6c;
+ text-align: center;
+ padding: 15px;
+ font-size: 14px;
+ margin-top: 60px;
+ border-top: 1px solid #ffb3c6;
+}
+button {
+ background-color: #ff69b4;
+ border: none;
+ color: white;
+ padding: 10px 15px;
+ border-radius: 5px;
+ cursor: pointer;
+ font-weight: bold;
+ transition: background 0.3s;
+}
+button:hover {
+ background-color: #d94f8d;
+}
+.team-grid {
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ gap: 20px;
+}
+.team-member {
+ background-color: #fff;
+ border: 1px solid #ffd6e0;
+ border-radius: 10px;
+ padding: 20px;
+ width: 250px;
+ text-align: center;
+ box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+ transition: transform 0.3s;
+}
+.team-member:hover {
+ transform: translateY(-5px);
+}
+form input, form textarea {
+ width: 100%;
+ padding: 12px;
+ margin-bottom: 15px;
+ border: 1px solid #ddd;
+ border-radius: 6px;
+}
+form label {
+ font-weight: bold;
+ color: #555;
+}
